@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Greedy/BOJ_1541.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/Coin0_11047.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -297,7 +292,7 @@
       <workItem from="1689317869436" duration="2119000" />
       <workItem from="1689322239609" duration="1172000" />
       <workItem from="1689339633677" duration="135000" />
-      <workItem from="1689391974029" duration="3310000" />
+      <workItem from="1689391974029" duration="6443000" />
     </task>
     <servers />
   </component>
@@ -306,6 +301,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$Coin0_11047.coverage" NAME="Coin0_11047 Coverage Results" MODIFIED="1689319892787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13305.coverage" NAME="BOJ_13305 Coverage Results" MODIFIED="1689401040669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_11047.coverage" NAME="BOJ_11047 Coverage Results" MODIFIED="1689395002202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1689319595507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1541.coverage" NAME="BOJ_1541 Coverage Results" MODIFIED="1689395025351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
