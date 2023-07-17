@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Greedy/BOJ_1931.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Greedy/***BOJ_1931.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -294,6 +296,8 @@
       <workItem from="1689339633677" duration="135000" />
       <workItem from="1689391974029" duration="6636000" />
       <workItem from="1689484967192" duration="10761000" />
+      <workItem from="1689497001886" duration="71000" />
+      <workItem from="1689573675324" duration="10082000" />
     </task>
     <servers />
   </component>
@@ -307,7 +311,8 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_11047.coverage" NAME="BOJ_11047 Coverage Results" MODIFIED="1689395002202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1689319595507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1735.coverage" NAME="BOJ_1735 Coverage Results" MODIFIED="1689496795159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
-    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1931.coverage" NAME="BOJ_1931 Coverage Results" MODIFIED="1689492280293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1931.coverage" NAME="BOJ_1931 Coverage Results" MODIFIED="1689584401505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$___BOJ_1931.coverage" NAME="***BOJ_1931 Coverage Results" MODIFIED="1689582464309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1541.coverage" NAME="BOJ_1541 Coverage Results" MODIFIED="1689395025351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
   </component>
 </project>
