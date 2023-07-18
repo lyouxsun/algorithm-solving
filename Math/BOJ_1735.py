@@ -19,7 +19,7 @@ ans1 = lcm//N2*N1 + lcm//M2*M1
 b=ans1
 a=lcm
 while(b!=0):
-    if (a % b == 0):
+    if a % b == 0:
         ans1 /= b
         lcm /=b
         break

@@ -13,5 +13,4 @@ for i in range(N-1):
     if minimum>=price[i]:
         minimum=price[i]
     total += minimum * distance[i]
-# 다음기름값이 더 비쌈 -> 다다음 값도 비교 -> 자기와 작은게 나오기 전까지의 거리의 합을 구함
 print(total)
