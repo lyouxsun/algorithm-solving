@@ -1,4 +1,4 @@
-# 그리디 알고리즘 - 1049 - 기타줄
+# 그리디 알고리즘 - 1049번 - 기타줄
 import sys
 input = sys.stdin.readline
 N, M = map(int, input().split())
