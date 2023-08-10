@@ -100,6 +100,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BOJ/DataStructure" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/BOJ" />
       <recent name="$PROJECT_DIR$/UnionFind" />
@@ -333,7 +334,8 @@
       <workItem from="1691375066233" duration="4777000" />
       <workItem from="1691382325137" duration="1712000" />
       <workItem from="1691466196968" duration="6645000" />
-      <workItem from="1691549813539" duration="1154000" />
+      <workItem from="1691549813539" duration="3036000" />
+      <workItem from="1691669814363" duration="393000" />
     </task>
     <servers />
   </component>
@@ -372,7 +374,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_2217.coverage" NAME="BOJ_2217 Coverage Results" MODIFIED="1689696012609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1439.coverage" NAME="BOJ_1439 Coverage Results" MODIFIED="1690207444583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1715.coverage" NAME="BOJ_1715 Coverage Results" MODIFIED="1689737612601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
-    <SUITE FILE_PATH="coverage/Python_BOJ$DataStructure.coverage" NAME="DataStructure Coverage Results" MODIFIED="1691550732658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$DataStructure.coverage" NAME="DataStructure Coverage Results" MODIFIED="1691551131026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/Python_BOJ$___BOJ_1931.coverage" NAME="***BOJ_1931 Coverage Results" MODIFIED="1689582464309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1092.coverage" NAME="BOJ_1092 Coverage Results" MODIFIED="1690787144686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$Page_311.coverage" NAME="Page_311 Coverage Results" MODIFIED="1691472976953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisIsCodingTest/Greedy" />
@@ -390,6 +392,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_14916.coverage" NAME="BOJ_14916 Coverage Results" MODIFIED="1690787833163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13305.coverage" NAME="BOJ_13305 Coverage Results" MODIFIED="1689401040669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1041.coverage" NAME="BOJ_1041 Coverage Results" MODIFIED="1691131029496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_16435.coverage" NAME="BOJ_16435 Coverage Results" MODIFIED="1691670206150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13904.coverage" NAME="BOJ_13904 Coverage Results" MODIFIED="1691379572594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$Page_96.coverage" NAME="Page_96 Coverage Results" MODIFIED="1691383433164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisIsCodingTest/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1049.coverage" NAME="BOJ_1049 Coverage Results" MODIFIED="1690895640136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
