@@ -1,5 +1,5 @@
 # 그리디 알고리즘 - 1781번 - 컵라면
-import sys, heapq   # 디폴트가 최소합
+import sys, heapq   # 디폴트가 최소힙 (heappush하면 최솟값이 나온다.)
 input = sys.stdin.readline
 N = int(input())
 arr = []
