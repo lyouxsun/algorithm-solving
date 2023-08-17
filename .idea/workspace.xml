@@ -6,40 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/DataStructure/BOJ_25192.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/dataStructure/BOJ_25192.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/DynamicProgramming/BOJ_1003.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/dynamicProgramming/BOJ_1003.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/DynamicProgramming/BOJ_1463.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/dynamicProgramming/BOJ_1463.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1026.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1026.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1041.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1041.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1049.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1049.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1092.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1092.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_11000.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_11000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_11047.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_11047.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1202.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1202.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_12904.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_12904.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_13164.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_13164.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_13305.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_13305.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1339.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1339.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_13904.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_13904.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1439.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1439.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1449.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1449.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_14916.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_14916.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1541.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1541.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_16435.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_16435.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_16953.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_16953.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1700.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1700.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1715.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1715.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1744.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1744.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1781.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1781.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1789.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1789.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1931.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1931.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_1946.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_1946.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_2109.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_2109.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_2212.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_2212.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_2217.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_2217.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Greedy/BOJ_2847.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/greedy/BOJ_2847.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/Math/BOJ_1735.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/math/BOJ_1735.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/PrefixSum/BOJ_2437.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/prefixSum/BOJ_2437.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -377,7 +343,8 @@
       <workItem from="1692093336155" duration="4479000" />
       <workItem from="1692157134886" duration="352000" />
       <workItem from="1692160529222" duration="4000" />
-      <workItem from="1692191049745" duration="1491000" />
+      <workItem from="1692191049745" duration="3908000" />
+      <workItem from="1692237949619" duration="4029000" />
     </task>
     <servers />
   </component>
@@ -401,6 +368,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$___BOJ_10775.coverage" NAME="***BOJ_10775 Coverage Results" MODIFIED="1690942149701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1461.coverage" NAME="BOJ_1461 Coverage Results" MODIFIED="1691471478807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_2847.coverage" NAME="BOJ_2847 Coverage Results" MODIFIED="1691291257355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_11726.coverage" NAME="BOJ_11726 Coverage Results" MODIFIED="1692196294688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1700.coverage" NAME="BOJ_1700 Coverage Results" MODIFIED="1691294152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1541.coverage" NAME="BOJ_1541 Coverage Results" MODIFIED="1689395025351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$___BOJ_1092.coverage" NAME="***BOJ_1092 Coverage Results" MODIFIED="1691036179005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
@@ -414,6 +382,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1339.coverage" NAME="BOJ_1339 Coverage Results" MODIFIED="1689907355772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1690037180952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13164.coverage" NAME="BOJ_13164 Coverage Results" MODIFIED="1691733741739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1149.coverage" NAME="BOJ_1149 Coverage Results" MODIFIED="1692243667526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
     <SUITE FILE_PATH="coverage/pythonProject$Coin0_11047.coverage" NAME="Coin0_11047 Coverage Results" MODIFIED="1689319892787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_10775.coverage" NAME="BOJ_10775 Coverage Results" MODIFIED="1690786755075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$Page_96.coverage" NAME="Page_96 Coverage Results" MODIFIED="1691383433164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisIsCodingTest/Greedy" />
