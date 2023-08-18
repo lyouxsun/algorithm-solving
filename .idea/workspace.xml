@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -107,7 +106,7 @@
       <recent name="$PROJECT_DIR$/PrefixSum" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Python_BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,6 +344,7 @@
       <workItem from="1692160529222" duration="4000" />
       <workItem from="1692191049745" duration="3908000" />
       <workItem from="1692237949619" duration="4029000" />
+      <workItem from="1692277913709" duration="30000" />
     </task>
     <servers />
   </component>
