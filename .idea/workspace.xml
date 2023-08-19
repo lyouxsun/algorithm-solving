@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -106,7 +107,7 @@
       <recent name="$PROJECT_DIR$/PrefixSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Python_BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,6 +346,9 @@
       <workItem from="1692191049745" duration="3908000" />
       <workItem from="1692237949619" duration="4029000" />
       <workItem from="1692277913709" duration="30000" />
+      <workItem from="1692321420605" duration="9943000" />
+      <workItem from="1692335214801" duration="598000" />
+      <workItem from="1692418270083" duration="4545000" />
     </task>
     <servers />
   </component>
@@ -382,7 +386,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1339.coverage" NAME="BOJ_1339 Coverage Results" MODIFIED="1689907355772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1690037180952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13164.coverage" NAME="BOJ_13164 Coverage Results" MODIFIED="1691733741739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/Greedy" />
-    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1149.coverage" NAME="BOJ_1149 Coverage Results" MODIFIED="1692243667526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1149.coverage" NAME="BOJ_1149 Coverage Results" MODIFIED="1692335125984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
     <SUITE FILE_PATH="coverage/pythonProject$Coin0_11047.coverage" NAME="Coin0_11047 Coverage Results" MODIFIED="1689319892787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_10775.coverage" NAME="BOJ_10775 Coverage Results" MODIFIED="1690786755075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$Page_96.coverage" NAME="Page_96 Coverage Results" MODIFIED="1691383433164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisIsCodingTest/Greedy" />
@@ -397,6 +401,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1931.coverage" NAME="BOJ_1931 Coverage Results" MODIFIED="1689584401505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1202.coverage" NAME="BOJ_1202 Coverage Results" MODIFIED="1690279665372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$main.coverage" NAME="main Coverage Results" MODIFIED="1691245898542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_11053.coverage" NAME="BOJ_11053 Coverage Results" MODIFIED="1692423984549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1946.coverage" NAME="BOJ_1946 Coverage Results" MODIFIED="1689828688054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1744.coverage" NAME="BOJ_1744 Coverage Results" MODIFIED="1690304567185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_2212.coverage" NAME="BOJ_2212 Coverage Results" MODIFIED="1690615363561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
@@ -415,6 +420,7 @@
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_1041.coverage" NAME="BOJ_1041 Coverage Results" MODIFIED="1691131029496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_16435.coverage" NAME="BOJ_16435 Coverage Results" MODIFIED="1691670213585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/Greedy" />
     <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_13904.coverage" NAME="BOJ_13904 Coverage Results" MODIFIED="1691379572594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Python_BOJ$BOJ_2579.coverage" NAME="BOJ_2579 Coverage Results" MODIFIED="1692333727274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/dynamicProgramming" />
     <SUITE FILE_PATH="coverage/Python_BOJ$Page_99.coverage" NAME="Page_99 Coverage Results" MODIFIED="1691383932267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisIsCodingTest/Greedy" />
   </component>
 </project>
