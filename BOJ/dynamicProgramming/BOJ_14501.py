@@ -6,14 +6,12 @@ N = int(input())
 arr = []
 for i in range(N):
     arr.append(list(map(int, input().split())))
-# print(arr)
 dp = [0 for i in range(N+1)]
-answer = 0
 for i in range(N-1, -1, -1):
-    if i+arr[i][0]<=N:
+    if i+arr[i][0] <= N:
         dp[i] = max(dp[i+arr[i][0]]+arr[i][1], dp[i+1])
     else:
         dp[i] = dp[i + 1]
     # print(i)
-    # print(dp[i])
+    # print(dp[i]) 
 print(dp[0])
