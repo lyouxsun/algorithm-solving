@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.readline
 N = int(input())
-arr = [0 for i in range(N)]
+arr = [0 for i in range(N+1)]
 arr[0] = 1
 arr[1] = 3
 if N == 1:
