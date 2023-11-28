@@ -1,15 +1,7 @@
 # 그래프 이론 - 1012번 - 유기농 배추
 import sys
 input = sys.stdin.readline
-cycle = int(input())
-for i in range(cycle):
-    # 그래프 만들기
-    M, N, K = map(int, input().split())
-    arr = [[0 for a in range(M)] for b in range(N)]
-    for j in range(K):
-        x, y = map(int, input().split())
-        arr[y][x] = 1
-    # 그래프 탐색하기
+def bfs(M, N, arr):
     cnt = 0
     queueArr = []
     for x in range(M):
@@ -34,3 +26,17 @@ for i in range(cycle):
                         if arr[b][a-1] == 1:
                             queueArr.append([b, a-1])
     print(cnt)
+
+
+cycle = int(input())
+for i in range(cycle):
+    # 그래프 만들기
+    M, N, K = map(int, input().split())
+    arr = [[0 for a in range(M)] for b in range(N)]
+    for j in range(K):
+        x, y = map(int, input().split())
+        arr[y][x] = 1
+    # 그래프 탐색하기
+    bfs(M, N, arr)
+
+
