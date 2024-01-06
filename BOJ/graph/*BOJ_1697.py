@@ -17,7 +17,7 @@ while True:
             s.add(i + 1)
         if i > K//2:
             s.add(i-1)
-    # print(s, '\n-----------------------------\n')
+    print(s, '\n-----------------------------\n')
     if K in s:
         break
 print(cnt)

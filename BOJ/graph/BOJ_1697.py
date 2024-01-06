@@ -12,7 +12,7 @@ def bfs():
             print(visited[K])
             return
         for i in (num-1, num+1, num*2):
-            if (0 <= i < K * 2) and visited[i]==0:   # (i not in q)를 visited[i]==0 으로 바꿨다고 시간초과가 해결된다고? 시이발
+            if (0 <= i < K * 2) and visited[i] == 0:   # (i not in q)를 visited[i]==0 으로 바꿨다고 시간초과가 해결된다고?
                 visited[i] = visited[num]+1
                 q.append(i)
 
