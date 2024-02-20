@@ -1,7 +1,13 @@
-# Greedy
-
-# BFS
-
-# DFS
-
-# Dynamic Programming
+- 문자열
+- 정렬
+- Greedy
+- 구현
+- 정렬
+- DFS / BFS
+- 백트래킹
+- 그리디
+- Dynamic Programming
+- 이진 탐색
+- 최단 경로
+- Brute Force
+- 그래프 이론
