@@ -1,4 +1,4 @@
-# 그리디, UnionFind 알고리즘 - 10775번 - 공항
+# 그리디, union_find 알고리즘 - 10775번 - 공항
 import sys
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
