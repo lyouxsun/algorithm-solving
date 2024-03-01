@@ -13,7 +13,6 @@ for _ in range(n - 1):
     a, b = map(int, input().split())
     arr[a].append(b)
     arr[b].append(a)
-    # print(arr)
 
 
 def bfs():
@@ -23,7 +22,7 @@ def bfs():
         visited[i] = 1
         q.append(i)
 
-    while 0 in visited:
+    while len(q) != 0:
         next = q.popleft()
         for i in arr[next]:
             if visited[i] == 0:

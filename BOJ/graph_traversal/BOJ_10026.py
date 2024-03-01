@@ -21,7 +21,7 @@ def A_dfs(h, w):
         nw = w + dw[i]
         nh = h + dh[i]
         if (0 <= nw < n) and (0 <= nh < n):
-            if visited[nh][nw] == 0 and arr[nh][nw] == arr[h][w]:
+            if (visited[nh][nw] == 0) and (arr[nh][nw] == arr[h][w]):
                 # visited[nh][nw] = 1
                 A_dfs(nh, nw)
     return
