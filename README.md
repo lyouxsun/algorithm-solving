@@ -24,3 +24,4 @@
 내용에 잘못된 부분이 있다면 코멘트 남겨주세요. 🙇🏻‍♀️
 
 1. [자료형 정리](/python/data_type.md)
+2. [컬렉션 정리](/python/collection.md)
