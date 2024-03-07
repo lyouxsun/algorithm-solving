@@ -9,7 +9,7 @@ import copy
 import sys
 
 input = sys.stdin.readline
-sys.setrecursionlimit(10 ** 6)
+# sys.setrecursionlimit(10 ** 6) ## 이 코드 하나 추가했다고 Pypy3에서 메모리초과 발생..
 
 dh = [-1, 1, 0, 0]
 dw = [0, 0, -1, 1]
@@ -20,7 +20,7 @@ def bfs():
     q = deque()
     for i in range(h):
         for j in range(w):
-            if arr[i][j] == 2:
+            if test_lab[i][j] == 2:
                 q.append((i, j))
     while len(q) > 0:
         xh, xw = q.popleft()
@@ -32,12 +32,11 @@ def bfs():
                     test_lab[nh][nw] = 2
                     q.append((nh, nw))
 
+
     global ans  # ans를 전역 변수로 사용하겠다고 명시
     cnt_0 = 0
-    for i in range(h):
-        for j in range(w):
-            if test_lab[i][j] == 0:
-                cnt_0 += 1
+    for row in test_lab:
+        cnt_0 += row.count(0)
     ans = max(ans, cnt_0)
 
 

@@ -48,7 +48,7 @@
 
 **조회**
 - index : 특정 값이 몇 번째 인덱스에 있는지 반환받기 `list.index({값})`
-- count : 특정 값이 리스트 안에 몇 개인지 반환받기 `list.count({값})`
+- count : 특정 값이 1차원 리스트 안에 몇 개인지 반환받기 `list.count({값})`
 - max : 1차원 리스트 최댓값 조회 `max(list)`
 - min : 1차원 리스트 최솟값 조회 `min(list)`
 - sum : 1차원 리스트 요소들의 총합 계산 `sum(list)`
