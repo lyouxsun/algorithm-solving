@@ -24,4 +24,7 @@
 
 1. [자료형 정리](/python/data_type.md)
 2. [깊은 복사와 얕은 복사](/python/copy.md)
-3. [컬렉션 정리](/python/collection.md)
+3. [hash table 구조](/python/hashtable.md)
+4. [컬렉션 정리](/python/collection.md)
+
++ [메모](convention.md)
