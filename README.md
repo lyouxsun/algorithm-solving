@@ -1,5 +1,8 @@
 # 🐯 algorithm-solving
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leedrkr323&hide_border=true)](https://solved.ac/leedrkr323/)
+
+
 ## 알고리즘 유형별 정리
 
 | 알고리즘 유형                                   | 기간           | 태그              |
