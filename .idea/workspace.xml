@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c890c2-d55d-4e2c-954b-b839d4b93d18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_BOJ" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_BOJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm-solving-with-python/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm-solving-with-python/.idea/algorithm-solving-with-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm-solving-with-python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm-solving-with-python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../algorithm-solving-with-python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lyouxsun/Desktop/algorithm-solving&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -376,6 +374,7 @@
       <workItem from="1705925889911" duration="2040000" />
       <workItem from="1706017708174" duration="1857000" />
       <workItem from="1706094910649" duration="180000" />
+      <workItem from="1721479002904" duration="39000" />
     </task>
     <servers />
   </component>
