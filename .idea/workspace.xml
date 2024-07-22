@@ -8,40 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_BOJ" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_BOJ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_BOJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm-solving-with-python.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/BOJ_11722.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/BOJ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/dynamic_programming/BOJ_11722.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/dynamic_programming/BOJ_11722.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BOJ/dynamic_programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/dynamic_programming/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/ThisIsCodingTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisIsCodingTest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/codetree.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codetree/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/.idea/python.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +389,7 @@
       <workItem from="1721479002904" duration="39000" />
       <workItem from="1721479601729" duration="6000" />
       <workItem from="1721615394338" duration="1681000" />
-      <workItem from="1721640726048" duration="6592000" />
+      <workItem from="1721640726048" duration="8849000" />
     </task>
     <servers />
   </component>
