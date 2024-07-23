@@ -72,7 +72,7 @@
 - 순서가 없다. → 인덱스로 접근하고 싶다면 set을 list나 tuple로 변환한 후 가능하다. `arr = list(s)`
 - 슬라이싱과 인덱싱이 불가능하다 & 개별 요소에 접근할 수 없다. → 특정 요소만 출력할 수 없다.
 - 교집합, 합집합, 차집합, 대칭 차집합을 구할 때 용이하다.
-    ![](./image/set_calculation.png)
+    ![](image/set_calculation.png)
     
 
 ### 집합 초기화 방법
@@ -126,7 +126,7 @@
 - list : `x in list`  **O(n)**
 - set, dict : `x in set` **O(1)**
    
-  이유 : 파이썬의 set이 [hash table](./hashtable.md)로 구현되어 있기 때문이다.
+  이유 : 파이썬의 set이 [hash table](hashtable.md)로 구현되어 있기 때문이다.
 
 → in 값으로 탐색하고자 한다면 list를 set으로 변환한 후 in 연산을 사용하는 것이 좋다
 

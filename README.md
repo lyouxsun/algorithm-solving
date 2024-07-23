@@ -6,8 +6,8 @@
 
 | 알고리즘 유형                                                        | 기간                   | 태그              |
 |----------------------------------------------------------------|----------------------|-----------------|
-| [그래프 탐색](./BOJ/graph_traversal/README.md)           | 2024.02.25 ~ 2024.04 | #DFS #BFS #최단경로 |
-| [DP](./BOJ/dynamic_programming/README.md) | 2024.07.22 ~         |                 |
+| [그래프 탐색](BOJ/graph_traversal/README.md)           | 2024.02.25 ~ 2024.04 | #DFS #BFS #최단경로 |
+| [DP](BOJ/dynamic_programming/README.md) | 2024.07.22 ~         |                 |
 | 구현                                                             |                      |                 |
 | 그래프 이론                                                         |                      |                 |
 | 문자열                                                            |                      |                 |
@@ -30,4 +30,4 @@
 3. [hash table 구조](/python/hashtable.md)
 4. [컬렉션 정리](/python/collection.md)
 
-+ [메모](convention.md)
++ [메모](python/convention.md)
