@@ -72,9 +72,10 @@ ex. 피보나치 수열
 | 4  | 24.07.23 | [BOJ 14002](https://www.acmicpc.net/problem/14002) | 부분 수열을 만들 때, 자신의 이전 순서가 되는 숫자의 인덱스를 저장하는 dp 테이블을 하나 더 추가!!             |                                                    |                                                             |         |
 | 5  | 24.07.24 | [BOJ 11048](https://www.acmicpc.net/problem/11048) | BFS에서 최단경로를 구하는 방식과 동일하게 풂. `arr[i][j] += 주변 값들 중 최댓값`                 | dp 테이블이 따로 필요하지 않음!                                | dp = 한번 오른쪽/아래쪽 으로 가면 다시 올라갈 수 없음 = 문제가 점점 작아진다.            |
 | 6  | 24.07.25 | [BOJ 11060](https://www.acmicpc.net/problem/11060) | `dp[i] = arr[i] 까지 오는데 걸리는 최소 점프 수`                                    |                                                    | 바텀업 : 0부터 시작해서 for문, 탑다운 : n(맨끝)부터 시작해서 재귀                  |
-| 7  | 24.07.25 | [BOJ 15486](https://www.acmicpc.net/problem/15486) | i = 0 ~ n-1 을 돌며, i번째 상담을 하는 경우 & 하지 않는 경우를 고려                         | input 개수가 많기 때문에 시간복잡도가 O(n<sup>2</sup>) 이상이면 안된다! | [파이썬  빠른입출력 필수!!](https://www.acmicpc.net/board/view/22716) | ✅ |
-
-
+| 7  | 24.07.25 | [BOJ 15486](https://www.acmicpc.net/problem/15486) | i = 0 ~ n-1 을 돌며, i번째 상담을 하는 경우 & 하지 않는 경우를 고려                         | input 개수가 많기 때문에 시간복잡도가 O(n<sup>2</sup>) 이상이면 안된다! | [파이썬  빠른입출력 필수!!](https://www.acmicpc.net/board/view/22716) |    ✅    |
+| 7  | 24.07.26 | [BOJ 10942](https://www.acmicpc.net/problem/10942) | 시작 인덱스 :i, 끝 인덱스 : j 인 수열이 팰린드롬이면 dp[i][j]에 1, 아니면 0을 저장               | 재귀(topdown)로 구현하면 메모리 초과가 발생해서 바텀업으로 제출            |                                                             |    ✅    |
+| 8  | 24.07.26 | [BOJ 9095](https://www.acmicpc.net/problem/9095)   | 1부터 차례대로 구해보니 규칙(점화식)이 보여서 풂. 풀이의 정확한 이유는 모르겠음 -> 유레카!!                |                                                    |                                                             |         |
+| 9  | 24.07.27 | [BOJ 15989](https://www.acmicpc.net/problem/15989) | dp 테이블 = 이전 수에서 1만 더해서 만들 수 있는 방법 수 + 2만 더해서 + 3만 더해서 만들 수 있는 방법 수     |                                                    | 이런 생각을 어떻게 하는거지.. 아직 멀었다ㅠ                                   |    ✅    |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24
