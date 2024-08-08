@@ -15,3 +15,8 @@
   n = int(input())
   a, b = map(int, input().split())
   ```
+
+- 재귀함수 사용 시 넣어줘야 할 코드
+```python
+    sys.setrecursionlimit(10 ** 6)
+```
