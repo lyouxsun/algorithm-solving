@@ -10,6 +10,7 @@
 | [그래프 탐색](BOJ/graph_traversal/README.md)         | 2024.02.25 ~ 2024.04 | #DFS #BFS #최단경로      |
 | [DP](BOJ/dynamic_programming/README.md)         | 2024.07.22 ~         | #bottom_up #top_down |
 | [완전 탐색(Brute Force)](BOJ/brute_force/README.md) | 2024.07.29 ~         |                      |
+| [투 포인터(Two Pointer)](BOJ/two_pointer/README.md) | 2024.08.17 ~         | #브루트포스_대안 #누적합       |
 | 구현                                              |                      |                      |
 | 그래프 이론                                          |                      |                      |
 | 문자열                                             |                      |                      |
