@@ -1,7 +1,7 @@
 # 🐯 algorithm-solving
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leedrkr323&hide_border=true)](https://solved.ac/leedrkr323/)
-![mazandi profile](http://mazandi.herokuapp.com/api?handle=leedrkr323&theme=warm)
+[![mazandi profile](http://mazandi.herokuapp.com/api?handle=leedrkr323&theme=warm)](https://solved.ac/leedrkr323/)
 
 ## 알고리즘 유형별 정리
 
