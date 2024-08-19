@@ -1,24 +1,27 @@
 # 중간에서 만나기 - 2143번 - 두 배열의 합
 ## 1208번과 달리, 연속된 수열의 합만 구하면 된다!
 import sys
-
+from collections import Counter
 input = sys.stdin.readline
 
 t = int(input())
-
 n = int(input())
 tmp1 = list(map(int, input().split()))
 m = int(input())
 tmp2 = list(map(int, input().split()))
 
-## 1. 배열을 누적합으로 저장하기
-a = [0] * (n + 1)
-for i in range(1, n + 1):
-    a[i] = a[i - 1] + tmp1[i - 1]
 
-b = [0] * (m + 1)
-for i in range(1, m + 1):
-    b[i] = b[i - 1] + tmp2[i - 1]
+## 1. 배열을 누적합으로 저장하기
+def prefix_sum(arr):
+    n = len(arr)
+    prefix_sums = [0] * (n + 1)
+    for i in range(1, n + 1):
+        prefix_sums[i] = prefix_sums[i - 1] + arr[i - 1]
+    return prefix_sums
+
+
+a = prefix_sum(tmp1)
+b = prefix_sum(tmp2)
 
 
 def sum_comb(arr):
@@ -38,28 +41,10 @@ b_sums = sum_comb(b)
 # print('b_sums = ', b_sums)
 
 a_sums.sort()
-b_sums.sort(reverse=True)
-
-ap, bp = 0, 0  # a_sums, b_sums의 포인터
+b_sums.sort()
+c = Counter(b_sums)  # 각 요소가 b_sums 안에 몇개 있는지 dictionary 형태로 저장
 cnt = 0
-while ap < len(a_sums) and bp < len(b_sums):
-    current_sum = a_sums[ap] + b_sums[bp]
-    if current_sum == t:
-        ca = 1
-        cb = 1
-        ap += 1
-        bp += 1
-        while ap < len(a_sums) and a_sums[ap] == a_sums[ap - 1]:
-            ca += 1
-            ap += 1
-        while bp < len(b_sums) and b_sums[bp] == b_sums[bp - 1]:
-            cb += 1
-            bp += 1
-        cnt += ca * cb
-
-    elif current_sum < t:
-        ap += 1
-    else:
-        bp += 1
+for num in a_sums:
+    cnt += c[t - num]
 
 print(cnt)
