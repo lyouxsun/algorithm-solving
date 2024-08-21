@@ -3,7 +3,7 @@ from itertools import combinations
 
 l, c = map(int, input().split())
 arr = list(input().split())
-vowel = ['a', 'e', 'i', 'o','u']
+vowel = ['a', 'e', 'i', 'o', 'u']
 
 comb = combinations(arr, l)
 ans = set()
@@ -12,7 +12,7 @@ for array in comb:
     for i in array:
         if i in vowel:
             cnt_v += 1
-    if cnt_v < 1 or l-cnt_v < 2:
+    if cnt_v < 1 or l - cnt_v < 2:
         continue
     else:
         tmp = ''.join(sorted(array))
@@ -21,6 +21,3 @@ for array in comb:
 a = sorted(list(ans))
 for i in a:
     print(i)
-
-
-
