@@ -30,4 +30,7 @@
 1. [자료형 정리](/python/data_type.md)
 2. [깊은 복사와 얕은 복사](/python/copy.md)
 3. [itertools 톺아보기](/python/itertools.md)
-4. [hash table 구�
+4. [hash table 구조](/python/hashtable.md)
+5. [컬렉션 정리](/python/collection.md)
+
++ [메모](python/convention.md)
