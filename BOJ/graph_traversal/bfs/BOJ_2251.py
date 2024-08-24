@@ -1,8 +1,8 @@
 # BFS - 2251번 - 물통
-## BFS가 가능한 이유 : 1.손실되는 물이 없어서 2.물이 나눠담기는 조합의 경우의 수 = 200^3
+## BFS가 가능한 이유 : 1.물통의 모든 상태를 고려해야 함 2.물을 나눠담는 조합의 경우의 수 = 200^3
 from collections import deque
 from copy import deepcopy
-bucket = list(map(int, input().split()))
+bucket = list(map(int, input().split()))        # 물통 A, B, C의 용량
 result = [[0] * (bucket[1] + 1) for _ in range(bucket[0] + 1)]
 # result[a][b] = 물통A에 a가 들어있고, 물통B에 b가 들어있을 때, 물통C에 들어있는 물의 양
 
@@ -21,10 +21,10 @@ while len(q) > 0:
     for i in range(6):
         f, t = _from[i], _to[i]
         next = deepcopy(cur)
-        if cur[f] < bucket[t]-cur[t]:     # 물을 주는 통에 남아있는걸 다 주기
+        if cur[f] < bucket[t]-cur[t]:     # case 1) 물을 주는 통(from)에 남아있는 걸 다 주기
             next[f] = 0
             next[t] += cur[f]
-        else:
+        else:                             # case 2) 물을 넣는 통(to)을 꽉 채우기
             next[f] -= bucket[t]-cur[t]
             next[t] = bucket[t]
         if result[next[0]][next[1]] == 0:
