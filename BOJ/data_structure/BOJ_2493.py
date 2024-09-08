@@ -1,4 +1,4 @@
-# 스택 - 28278번 - 스택2
+# 자료구조(스택) - 28278번 - 스택2
 import sys
 input = sys.stdin.readline
 

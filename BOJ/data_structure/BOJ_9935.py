@@ -1,4 +1,4 @@
-# 스택 - 9935번 - 문자열 폭발
+# 자료구조(스택) - 9935번 - 문자열 폭발
 import sys
 input = sys.stdin.readline
 
