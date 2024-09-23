@@ -13,7 +13,7 @@
 | [투 포인터(Two Pointer)](BOJ/two_pointer/README.md) | 2024.08.17 ~ 08.18          | #브루트포스_대안 #누적합       |
 | [자료구조](BOJ/data_structure/README.md)            | 2024.09.03 ~                |                      |
 | 구현                                              |                             |                      |
-| 그래프 이론                                          |                             |                      |
+| [그래프 이론](BOJ/graph_theory/README.md)            | 24.09.18 ~                  |                      |
 | 문자열                                             |                             |                      |
 | 정렬                                              |                             |                      |
 | 그리디 (Greedy)                                    |                             |                      |
