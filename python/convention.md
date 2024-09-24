@@ -20,3 +20,12 @@
 ```python
     sys.setrecursionlimit(10 ** 6)
 ```
+
+- 입력개수가 주어지지 않은 경우 무한루프 끝내는 방법
+```python
+    while True:
+        try:
+            n, m = map(int, input().split())        # 입력받는 부분
+        except (ValueError, EOFError):
+            exit()
+```
