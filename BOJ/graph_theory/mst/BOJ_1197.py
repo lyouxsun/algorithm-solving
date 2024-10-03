@@ -14,18 +14,28 @@ for _ in range(e):
 cycle = [i for i in range(v+1)]
 # print(cycle)
 
-def find_parent(v):
+# 1. 부모 노드를 찾는 함수
+def get_parent(v):
     if cycle[v] != v:
-        cycle[v] = find_parent(cycle[v])
+        cycle[v] = get_parent(cycle[v])
     return cycle[v]
 
+# 2. 두 부모 노드를 합치는 함수
 def union(v1, v2):
-    parent_v1 = find_parent(v1)
-    parent_v2 = find_parent(v2)
+    parent_v1 = get_parent(v1)
+    parent_v2 = get_parent(v2)
     if parent_v1 > parent_v2:
         cycle[parent_v1] = parent_v2
     else:
         cycle[parent_v2] = parent_v1
+
+def same_parent(v1, v2):
+    parent_v1 = get_parent(v1)
+    parent_v2 = get_parent(v2)
+    if parent_v1 == parent_v2:
+        return True
+    else:
+        return False
 
 edge_cnt = 0
 ans = 0
@@ -34,7 +44,7 @@ while q:
     if edge_cnt == v+1:
         break
     w, v1, v2 = heappop(q)
-    if find_parent(v1) != find_parent(v2):
+    if not same_parent(v1, v2):
         union(v1, v2)
         edge_cnt += 1
         ans += w
