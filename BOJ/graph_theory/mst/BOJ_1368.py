@@ -6,61 +6,41 @@ sys.setrecursionlimit(10 ** 6)
 
 n = int(input())
 q = []
-for i in range(n):
-    well = int(input())
-    heappush(q, (well, i, -1))
+for i in range(1, n+1):
+    heappush(q, (int(input()), i, 0))
 
 
-for i in range(n):
+for i in range(1, n+1):
     line = list(map(int, input().split()))
-    for j in range(i + 1, n):
-        heappush(q, (line[j], i, j))
+    for j in range(1, n+1):
+        if i != j:
+            heappush(q, (line[j-1], i, j))
 
 # 유니온파인드 ㄷㄱㅈ~
-cycle = [i for i in range(n)]
+parent = [i for i in range(n+1)]
 
 
 def get_parent(v):
-    if v != cycle[v]:
-        cycle[v] = get_parent(cycle[v])
-    return cycle[v]
-
-def same_parent(v1, v2):
-    return get_parent(v1) == get_parent(v2)
-
+    if v != parent[v]:
+        parent[v] = get_parent(parent[v])
+    return parent[v]
 
 def union_parent(v1, v2):
     v1_parent = get_parent(v1)
     v2_parent = get_parent(v2)
-    if v1_parent > v2_parent:
-        cycle[v1_parent] = v2_parent
-    else:
-        cycle[v2_parent] = v1_parent
-
-
+    if v1_parent != v2_parent:
+        if v1_parent > v2_parent:
+            parent[v1_parent] = v2_parent
+        else:
+            parent[v2_parent] = v1_parent
+        return True
+    return False
 
 ## 최소 비용 트리 만들기
-well_connected = [False] * n  # 우물이 판 논을 추적하기 위한 배열
-
-edge_cnt, ans = 0, 0
-well = False
+ans = 0
 while q:
     w, s, e = heappop(q)
-    if e == -1:      # 우물 추가
-        if not well_connected[s] or not well:      # 아직 엣지를 연결하지 않은 논!
-            ans += w
-            edge_cnt += 1
-            union_parent(s, s)
-            well_connected[s] = True
-            well = True
+    if union_parent(s, e):
+        ans += w
 
-    else:           # 엣지 추가
-        if not same_parent(s, e):
-            union_parent(s, e)
-            ans += w
-            edge_cnt += 1
-            well_connected[s] = well_connected[e] = True
-
-    if edge_cnt == n:
-        break
 print(ans)
