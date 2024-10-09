@@ -2,7 +2,6 @@
 ## 사탕을 넣을 때마다 리프노드를 항상 초기화 & 정렬
 ## 리프노드에는 (사탕의 맛, 개수) 튜플로 저장. 부모노드에는 사탕의 개수 합만 저장
 import sys
-
 input = sys.stdin.readline
 
 num = int(input())  # 주어질 연산의 개수

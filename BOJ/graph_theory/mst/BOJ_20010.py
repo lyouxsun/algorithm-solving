@@ -1,4 +1,4 @@
-# MST+다익스트라 - 20010번 - 악덕 영주 혜유
+# MST+BFS - 20010번 - 악덕 영주 혜유
 # 1. MST를 구하기
 import sys
 from heapq import *
