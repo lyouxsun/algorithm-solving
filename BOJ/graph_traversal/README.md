@@ -71,5 +71,6 @@
 | 25 | 24.08.31 | [BOJ 17142](https://www.acmicpc.net/problem/17142) | BFS            | 비활성 바이러스는 뚫고 갈 수는 있지만 전파할 수는 없다! 이 부분을 처리하기가 어려워서 애를 먹었다ㅠ                                           | 백준에서는 numpy를 쓸수 없다..그리고 deepcopy 최소화하려고 방문 횟수를 저장하는 visited 배열을 사용함!                  |         |
 | 26 | 24.09.01 | [BOJ 13549](https://www.acmicpc.net/problem/13549) | BFS            | 최단경로 -> BFS 사용하기! 근데 visited 배열을 곁들인..                                                              | 나의 지금 위치(me)가 목표(target)보다 idx가 작은 곳에 있는 경우만 고려하기! 그러려면 입력값 받자마자 분기문으로 처리~ㄱㄱ          |         |
 | 27 | 24.09.02 | [BOJ 2234](https://www.acmicpc.net/problem/2234)   | BFS            | 요소 개수, 크기 구하는 문제는 BFS~ 마지막에 이어진 두 요소의 크기 합을 구할 때, r-1이랑 c-1까지만 탐색하려고 했다가 오류 발생 (전범위 다 다룰 수 있어야 한다!) | [비스마스킹 연산](../../../algorithm-solving/python/bit_masking.md)                          |         |
+| 28 | 24.10.17 | [BOJ 3184](https://www.acmicpc.net/problem/3184)   | BFS            | 각 영역마다 bfs를 실행하여 남은 동물의 수를 구함                                                                       | 영역 = 울타리 내에서 이동 가능한 모든 범위                                                             |         |
 
 16637 브루트포스로 풀었는데 dfs로도 풀어보기!
