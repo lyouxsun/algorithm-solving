@@ -73,5 +73,6 @@
 | 27 | 24.09.02 | [BOJ 2234](https://www.acmicpc.net/problem/2234)   | BFS            | 요소 개수, 크기 구하는 문제는 BFS~ 마지막에 이어진 두 요소의 크기 합을 구할 때, r-1이랑 c-1까지만 탐색하려고 했다가 오류 발생 (전범위 다 다룰 수 있어야 한다!) | [비스마스킹 연산](../../../algorithm-solving/python/bit_masking.md)                          |         |
 | 28 | 24.10.17 | [BOJ 3184](https://www.acmicpc.net/problem/3184)   | BFS            | 각 영역마다 bfs를 실행하여 남은 동물의 수를 구함                                                                       | 영역 = 울타리 내에서 이동 가능한 모든 범위                                                             |         |
 | 29 | 24.10.18 | [BOJ 1926](https://www.acmicpc.net/problem/1926)   | BFS            | 2차원 배열에서 그래프 묶음의 수, 최대 그래프의 크기 구할 때는 BFS~                                                           |                                                                                       |         |
+| 30 | 24.10.26 | [BOJ 10451](https://www.acmicpc.net/problem/10451) | BFS            | 그래프 요소의 개수 구할 때에도 BFS~                                                                              |                                                                                       |         |
 
 16637 브루트포스로 풀었는데 dfs로도 풀어보기!
