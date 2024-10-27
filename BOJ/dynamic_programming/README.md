@@ -81,6 +81,7 @@ ex. 피보나치 수열
 | 12 | 24.07.30 | [BOJ 11052](https://www.acmicpc.net/problem/11052) | 구하고자 하는 것 : dp[i] = i개 카드를 구매할 때, 가격의 최댓값                              |                                                                           | 1번 인덱스부터 입력받는 방법 : `arr = [0] + list(map(int, input().split()))` |         |
 | 13 | 24.08.12 | [BOJ 17069](https://www.acmicpc.net/problem/17069) | 3개의 dp 테이블을 사용. 각각 수직, 수평, 대각선으로 i, j에 도착하는 방법을 dp_?[i][j]에 저장         | dp 테이블 3개 만들 생각을 어떻게 하는걸까.. 그리고 3차원 배열로 하려다 다루기 너무 어려워서 서로 다른 3개의 배열을 만듦. |                                                                  |         |
 | 14 | 24.10.15 | [BOJ 17626](https://www.acmicpc.net/problem/17626) | `dp[n] = min(dp[n], dp[n-제곱수]+1)` 점화식 세워서 품!                           | 처음 dp테이블은 최댓값인 4로 초기화함                                                    | dp 어렵다.. 시험기간동안 마스터해야지!!                                         |         |
+| 15 | 24.10.27 | [BOJ 2748](https://www.acmicpc.net/problem/2748)   | 바텀업 방식으로 dp 테이블을 모두 채운 후에 원하는 인덱스 값(=답) 출력                             |                                                                           |                                                                  |         |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24
