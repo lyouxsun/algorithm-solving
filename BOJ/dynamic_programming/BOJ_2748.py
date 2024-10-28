@@ -1,4 +1,4 @@
-# dp - 2784번 - 피보나치 수 2
+# dp - 2748번 - 피보나치 수 2
 import sys
 input = sys.stdin.readline
 
