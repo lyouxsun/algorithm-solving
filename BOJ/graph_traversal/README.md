@@ -74,5 +74,6 @@
 | 28 | 24.10.17 | [BOJ 3184](https://www.acmicpc.net/problem/3184)   | BFS            | 각 영역마다 bfs를 실행하여 남은 동물의 수를 구함                                                                       | 영역 = 울타리 내에서 이동 가능한 모든 범위                                                             |         |
 | 29 | 24.10.18 | [BOJ 1926](https://www.acmicpc.net/problem/1926)   | BFS            | 2차원 배열에서 그래프 묶음의 수, 최대 그래프의 크기 구할 때는 BFS~                                                           |                                                                                       |         |
 | 30 | 24.10.26 | [BOJ 10451](https://www.acmicpc.net/problem/10451) | BFS            | 그래프 요소의 개수 구할 때에도 BFS~                                                                              |                                                                                       |         |
+| 31 | 24.11.03 | [BOJ 2636](https://www.acmicpc.net/problem/2636)   | BFS            | 발상의 전환! 치즈가 아닌 것들에 집중하자~                                                                            | q 에는 공기 좌표를 집어넣고, cheese 리스트에는 치즈 좌표를 집어넣어서 따로 계산하는게 신기하다!                            |         |
 
 16637 브루트포스로 풀었는데 dfs로도 풀어보기!
