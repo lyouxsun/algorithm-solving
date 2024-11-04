@@ -83,6 +83,7 @@ ex. 피보나치 수열
 | 14 | 24.10.15 | [BOJ 17626](https://www.acmicpc.net/problem/17626) | `dp[n] = min(dp[n], dp[n-제곱수]+1)` 점화식 세워서 품!                           | 처음 dp테이블은 최댓값인 4로 초기화함                                                    | dp 어렵다.. 시험기간동안 마스터해야지!!                                         |         |
 | 15 | 24.10.27 | [BOJ 10826](https://www.acmicpc.net/problem/10826) | 바텀업 방식으로 dp 테이블을 모두 채운 후에 원하는 인덱스 값(=답) 출력                             |                                                                           |                                                                  |         |
 | 16 | 24.10.31 | [BOJ 11057](https://www.acmicpc.net/problem/11057) | n개의 자리 수마다 0~9가 일의 자리에 오는 숫자의 개수 → 규칙이 존재한다!                           |                                                                           | 아니.. 저 풀이법을 어떻게 생각해내요ㅠㅠ 될 때까지 하면 되지~~                            |    ✅    |
+| 17 | 24.11.04 | [BOJ 2293](https://www.acmicpc.net/problem/2293)   | 동전 1개만 사용한 경우 -> 2개 사용 -> 3개 사용 -> ..  이 순서대로 dp 테이블 갱신해나가기            | 인덱스 에러가 나지 않도록 n번째 동전은 dp[coins[n]] 부터 갱신해 나가기!                           | 맨 처음에 dp 테이블을 1로 초기화하는 건 `dp[coin] += 1` 만 하면 됨. (자기자신만 1 더해주기)  |         |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24
