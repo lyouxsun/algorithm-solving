@@ -89,6 +89,7 @@ ex. 피보나치 수열
 | 20 | 24.11.18 | [BOJ 30460](https://www.acmicpc.net/problem/30460) | dp[n] = 0부터 n까지의 점수 합의 최댓값, `dp[n] = max(dp[n-1] + arr[n], dp[n-3] + 2 * (arr[n-2] + arr[n-1] + arr[n])` | arr[n-2], arr[n-1] 의 값도 반영하기 위해 arr의 맨 뒤에 0을 2번 추가해줌                            | 내가 dp를 못해서 화딱지가 남ㅠ                                                                  |    ✅    |
 | 21 | 24.11.21 | [BOJ 9251](https://www.acmicpc.net/problem/9251)   | `str1[i] == str2[j]` 인 경우와 `str1[i] != str2[j]` 인 경우를 구별하여 다른 방식으로 `dp[i][j]`가 업데이트 된다.                  | dp 테이블을 사용할 때에는 index error 특히 주의할 것!                                           | 입력 문자열 맨 앞에 ' ' 를 붙이고, dp 테이블의 0행 또는 0열을 모두 0으로 초기화함! (dp 테이블 초기화 때 이 방법 많이 사용하는 듯) |    ✅    |
 | 22 | 24.11.26 | [BOJ 11051](https://www.acmicpc.net/problem/11051) | `dp[n][k] = nCk 를 10007로 나눈 값`                                                                           | 0<=k<=n, 1<=n<=1000 입력값의 조건을 유심히 보자!! + 특히 특수한 구간!!! (k==0 or n==k일 때, 항상 1이다.) | 파스칼 법칙                                                                              |         |
+| 23 | 24.11.27 | [BOJ 2294](https://www.acmicpc.net/problem/2294)   | `dp[i] = i를 만들기 위한 동전의 개수`                                                                               | 동전 개수의 최솟값을 구하고 싶기 때문에 맨 처음에 dp 테이블을 inf로 초기화하자!                                | '이전 인덱스를 활용해서 dp 점화식을 어떻게 세우면 좋을까'에 대해 고민하니 쉽게 떠오르는 것 같다!!! >0<                     |         |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24
