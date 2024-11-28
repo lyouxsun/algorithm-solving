@@ -1,4 +1,4 @@
-# 다이나믹 프로그래밍 - 10844번 - 쉬운 계단 수
+# DP - 10844번 - 쉬운 계단 수
 import sys
 input = sys.stdin.readline
 N = int(input())
