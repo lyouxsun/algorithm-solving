@@ -13,6 +13,7 @@ for i in range(2, n+2):
 
 # print(dp)
 print(dp[-1])
+
 # three_dp = [0] * n
 #
 # for i in range(n - 2):
