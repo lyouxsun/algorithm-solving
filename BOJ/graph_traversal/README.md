@@ -75,5 +75,6 @@
 | 29 | 24.10.18 | [BOJ 1926](https://www.acmicpc.net/problem/1926)   | BFS            | 2차원 배열에서 그래프 묶음의 수, 최대 그래프의 크기 구할 때는 BFS~                                                           |                                                                                       |         |
 | 30 | 24.10.26 | [BOJ 10451](https://www.acmicpc.net/problem/10451) | BFS            | 그래프 요소의 개수 구할 때에도 BFS~                                                                              |                                                                                       |         |
 | 31 | 24.11.03 | [BOJ 2636](https://www.acmicpc.net/problem/2636)   | BFS            | 발상의 전환! 치즈가 아닌 것들에 집중하자~                                                                            | q 에는 공기 좌표를 집어넣고, cheese 리스트에는 치즈 좌표를 집어넣어서 따로 계산하는게 신기하다!                            |         |
+| 32 | 25.01.02 | [BOJ 17144](https://www.acmicpc.net/problem/17144) | BFS            | 사실 BFS 보다는 구현에 가까웠지만, 그 안에 BFS가 중요한 로직을 담당함.                                                        | 2차원 배열의 값을 순환시킬 때 indexError에 주의하자!! 이번에는 r, c를 혼동해서 사용했다가 오류가 남.                     |         |
 
 16637 브루트포스로 풀었는데 dfs로도 풀어보기!
