@@ -2,7 +2,8 @@
 ## 재귀 = 똑같은게 반복
 n = int(input())
 
-stars = [[' '] * 2 * n for _ in range(n)]
+stars = [[' '] * 2
+         * n for _ in range(n)]
 
 
 def dfs(i, j, size):
