@@ -8,19 +8,14 @@ ans = True
 def dfs(now, g, g_class):
     global ans
     if not ans or g_class[now] == -1:
-        # print('now=', now)
-        # print('g_class[now]=', g_class[now])
         return
     for next in g[now]:
-        # print('next=', next)
         if g_class[now] != -1 and g_class[next] == g_class[now]:
-            # print('ans=False')
             ans = False
             return
         elif g_class[next] != -1:
             continue
         g_class[next] = 1 - g_class[now]
-        # print('g_class[', next, ']=', g_class[next])
         dfs(next, g, g_class)
 
 
@@ -38,11 +33,9 @@ for i in range(test):
     g_class = [-1] * (v + 1)  # 인접하지 않은 노드들끼리 분류 (0 / 1)
     g_class[1] = 0
     ans = True
-    # print(g)
     for j in range(1, v + 1):
         if g_class[j] == -1:
             g_class[j] = 0
-        # print('g_class=', g_class)
         dfs(j, g, g_class)
 
     if ans:
