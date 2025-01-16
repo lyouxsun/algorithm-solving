@@ -30,7 +30,7 @@ def restore(arr, v):
     for (y, x) in arr:
         v[y][x] = False
 
-def put(y, x, v):
+def put(y, v):
     global n, ans
     if y == n - 1:
         ans += 1
@@ -38,7 +38,7 @@ def put(y, x, v):
     for i in range(n):
         if not v[y+1][i]:
             arr = change(y + 1, i, v)
-            put(y + 1, i, v)
+            put(y + 1, v)
             restore(arr, v)
 
 
@@ -46,6 +46,6 @@ visited = [[False] * n for _ in range(n)]
 
 for i in range(n):
     arr = change(0, i, visited)
-    put(0, i, visited)
+    put(0, visited)
     restore(arr, visited)
 print(ans)
