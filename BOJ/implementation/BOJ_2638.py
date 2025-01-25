@@ -8,7 +8,6 @@ input = sys.stdin.readline
 
 dy = [0, 0, -1, 1]
 dx = [-1, 1, 0, 0]
-external_air = deque()
 
 r, c = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(r)]
@@ -50,13 +49,3 @@ while cheese:
         cheese.discard((ry, rx))
         arr[ry][rx] = 0
 print(ans)
-
-# 7 9
-# 0 0 0 0 0 0 0 0 0
-# 0 1 1 0 0 0 1 1 0
-# 0 1 0 1 1 1 0 1 0
-# 0 1 0 0 1 0 0 1 0
-# 0 1 0 1 1 1 0 1 0
-# 0 1 1 0 0 0 1 1 0
-# 0 0 0 0 0 0 0 0 0
-# 답 = 3
