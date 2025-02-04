@@ -15,14 +15,10 @@ def solution(queue1, queue2):
     start, end = 0, length // 2 - 1
     answer = 0
     q1_sum = sum(queue1)  # queue1에 대해서만 계산하자!
-    circular = False
 
-    while True:
+    while end >= start:
         if q1_sum == result:
             return answer
-
-        if (end < start and not circular) or (circular and end >= start):
-            return -1
 
         if q1_sum > result:
             q1_sum -= total[start]
