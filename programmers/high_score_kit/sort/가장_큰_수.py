@@ -1,11 +1,7 @@
+
 def solution(numbers):
     answer = ''
-
-    numbers = list(map(str, numbers))
-    numbers.sort(reverse=True)
-    print(numbers)
-
-    for i in numbers:
-        answer += i
-
-    return answer
+    num = list(map(str, numbers))
+    s = sorted(num ,key=lambda x: x* 3, reverse=True)
+    answer += ''.join(s)
+    return str(int(answer))
