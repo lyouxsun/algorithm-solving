@@ -33,3 +33,5 @@ def do():
 cycle = int(input())
 for i in range(cycle):
     do()
+
+
