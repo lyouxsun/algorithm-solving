@@ -33,6 +33,8 @@
 3. [itertools 톺아보기](/python/itertools.md)
 4. [hash table 구조](/python/hashtable.md)
 5. [컬렉션 정리](/python/collection.md)
+6. [정렬](/python/sort.md)
+7. [자주 사용하는 라이브러리 & 함수 정리](/python/library.md)
 
 + [메모](python/convention.md)
 
