@@ -1,4 +1,4 @@
-# DFS - 1520번 - 내리막 길
+# DFS&DP - 1520번 - 내리막 길
 import sys
 
 sys.setrecursionlimit(10 ** 6)
