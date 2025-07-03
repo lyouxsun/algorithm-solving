@@ -27,4 +27,4 @@ def dijkstra(start):
                 heappush(q, (dp[end], end))
     return dp
 ```
-> 더 자세한 코드를 보고 싶으면 [BOJ_14938](./BOJ_14938.py) 파일 확인 
+> 더 자세한 코드를 보고 싶으면 [BOJ_14938](BOJ_14938.py) 파일 확인 
