@@ -8,7 +8,7 @@
 | 알고리즘 유형                                         | 기간                                                 | 태그                               |
 |-------------------------------------------------|----------------------------------------------------|----------------------------------|
 | [그래프 탐색](BOJ/graph/README.md)         | 2024.02.25 ~ 03.18, 2024.08                        | #DFS #BFS #최단경로                  |
-| [DP](BOJ/dynamic_programming/README.md)         | 2024.10.15 ~                                       | #bottom_up #top_down             |
+| [DP](BOJ/DP/README.md)         | 2024.10.15 ~                                       | #bottom_up #top_down             |
 | [완전 탐색(Brute Force)](BOJ/brute_force/README.md) | 2024.07.29 ~ 08.21                                 |                                  |
 | [투 포인터(Two Pointer)](BOJ/two_pointer/README.md) | 2024.08.17 ~ 08.18                                 | #브루트포스_대안 #누적합                   |
 | [자료구조](BOJ/data_structure/README.md)            | 2024.09.03 ~                                       |                                  |
