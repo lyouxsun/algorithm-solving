@@ -55,3 +55,55 @@
    | 1 | 1 | 1 | 4 | 5 | 6 | 7 | 8 |
 
 4. 만약 `arr[v1] == arr[v2]` 라면, 둘은 이미 한 그래프로 이어져 있다는 의미이다. (여기서 노드를 더 추가하면 사이클이 만들어진다.)
+
+
+## 예제코드
+```python
+# 부모 노드를 찾는 함수 (재귀 + 경로 압축)
+def get_parent(parent, x):
+    if parent[x] == x:
+        return x
+    parent[x] = get_parent(parent, parent[x])
+    return parent[x]
+
+# 두 부모 노드를 합치는 함수
+def union(parent, a, b):
+    a = get_parent(parent, a)
+    b = get_parent(parent, b)
+    if a < b:
+        parent[b] = a
+    else:
+        parent[a] = b
+
+# 두 노드가 같은 부모를 가지는지 확인하는 함수
+def find(parent, a, b):
+    a = get_parent(parent, a)
+    b = get_parent(parent, b)
+    if a == b:
+        return 1
+    else:
+        return 0
+    
+# ---------- 예제 실행 ----------
+N = 7  # 노드 개수 (0~6번 노드)
+edges = [
+    (0, 1),
+    (1, 2),
+    (3, 4),
+    (5, 6)
+]
+
+parent = [i for i in range(N)]  # 0 ~ 7
+
+# 간선 정보를 기반으로 union 연산 수행
+for a, b in edges:
+    union(parent, a, b)
+
+# 그래프 그룹 묶기
+group_map = {}
+for i in range(N):
+    root = get_parent(parent, i)
+    if root not in group_map:
+        group_map[root] = []  # 없으면 빈 리스트로 초기화
+    group_map[root].append(i)
+```

@@ -39,4 +39,4 @@
 + [메모](python/convention.md)
 
 ## 기타 개념 및 법칙들
-![이항 계수 & 파스칼 법칙](/concept/binomial_coefficient.md)
+- [이항 계수 & 파스칼 법칙](/concept/binomial_coefficient.md)
