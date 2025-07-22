@@ -91,6 +91,7 @@ ex. 피보나치 수열
 | 22 | 24.11.26 | [BOJ 11051](https://www.acmicpc.net/problem/11051) | `dp[n][k] = nCk 를 10007로 나눈 값`                                                                           | 0<=k<=n, 1<=n<=1000 입력값의 조건을 유심히 보자!! + 특히 특수한 구간!!! (k==0 or n==k일 때, 항상 1이다.) | 파스칼 법칙                                                                              |         |
 | 23 | 24.11.27 | [BOJ 2294](https://www.acmicpc.net/problem/2294)   | `dp[i] = i를 만들기 위한 동전의 개수`                                                                               | 동전 개수의 최솟값을 구하고 싶기 때문에 맨 처음에 dp 테이블을 inf로 초기화하자!                                | '이전 인덱스를 활용해서 dp 점화식을 어떻게 세우면 좋을까'에 대해 고민하니 쉽게 떠오르는 것 같다!!! >0<                     |         |
 | 24 | 25.01.09 | [BOJ 9465](https://www.acmicpc.net/problem/9465)   | 1309번 동물원 문제와 푸는 방식과 똑같음. `dp[0][i] = max(dp[1][i-1], dp[1][i-2]) + arr[0][i]`                           |                                                                                 |                                                                                     |         |
+| 25 | 25.07.22 | [BOJ 1106](https://www.acmicpc.net/problem/1106)   | `dp[i] = i명을 모으는 데 필요한 최소비용`                                                                             | dp 테이블 사이즈를 1 작게 했다고 틀렸다. 주의!!                                                  | dp 테이블에서 i를 정하는 기준 ⇒ '어떤 조건을 만족해야 하는가' (이 문제에서는 고객 수)                               |         |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24

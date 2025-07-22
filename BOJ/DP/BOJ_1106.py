@@ -1,82 +1,59 @@
 # DP - 1106번 - 호텔
-## dp[i] = 0~i번째 도시까지 고려했을 때 최소비용
+## ~~ dp[i] = 0~i번째 도시까지 고려했을 때 최소비용 ~~
+## dp[i] = i을 모으는 데 필요한 최소비용
 import sys
 input = sys.stdin.readline
 
-C, N = map(int, input().split())
+GOAL, N = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
-# for i in range(N):
-#     print(arr[i][1] / arr[i][0])
-
-# 가성비 순으로 정렬 (만약 값이 동일하면, x[0] 이 작은게 더 먼저 오도록 정렬)
-arr.sort(key=lambda x: (x[0] / x[1], -x[0]), reverse = True)
-ans = 0
-remain_client = C
-if C % arr[0][1] == 0:
-    m = C // arr[0][1]
-    if m == 0:
-        print(arr[0][0])
-    else:
-        print(arr[0][0] * m)
-    sys.exit()
-
-dp = [float('inf')] * N  # 0행에는 최종 비용, 1행에는 남은 고객 수 저장
-m = C // arr[0][1]
-dp[0] = (m + 1) * arr[0][0]
-
-for i in range(1, N):
-    cost, client = arr[i][0], arr[i][1]
-    total_cost, m = 0, 1
-    while True:
-        if client * m <= C:
-            total_cost += cost * m
-            remain_client = C - client * m
-            dp[i] = min(dp[i], total_cost)
-            m+=1
-        else:
-            break
-    remain_client = dp[1][i]
-    m = remain_client // client
-    if remain_client % client == 0:
-        dp[0][i] = min(dp[0][i] + cost * m, dp[0][i - 1])
+MAX_CLIENT = max(client for _, client in arr)
+SIZE = MAX_CLIENT
+for i in range(2, ):
+    if MAX_CLIENT * (i - 1) <= GOAL < MAX_CLIENT * i:
+        SIZE *= i
         break
-    else:
-        if dp[0][i] + cost * (m + 1) < dp[0][i - 1]:
-            dp[0][i] = dp[0][i] + cost * (m + 1)
-            if i + 1 < N:
-                dp[0][i + 1] = dp[0][i] - cost
-                dp[1][i+1] = dp[1][i] - client * m
-        else:
-            dp[0][i] = dp[0][i-1]
-            if i + 1 < N:
-                dp[0][i+1] = dp[0][i]
-                dp[1][i+1] = dp[1][i]
 
-print('정렬한 arr = ', arr)
-print("===== dp =====")
-print(dp[0])
-print(dp[1])
-print("==============\n")
+SIZE += 1
+dp = [float('inf')] * SIZE
 
-if min(dp[0]) == 0:
-    print(arr[0][0])
-else:
-    print(min(dp[0]))
-# 반례 1
+for cost, client in arr:
+    multiple = 1
+    while True:
+        if client * multiple >= SIZE:
+            break
+        dp[client * multiple] = min(dp[client * multiple], cost * multiple)
+        multiple += 1
+for i in range(1, SIZE):
+    if dp[i] != float('inf'):
+        for j in range(i, 0, -1):
+            dp[j] = min(dp[j], dp[i])
+
+for i in range(SIZE):
+    for j in range(1, i // 2 + 1):
+        dp[i] = min(dp[i], dp[i - j] + dp[j])
+
+# print('최종 dp =', dp)
+
+print(min(dp[GOAL:]))
+
+# 반례
 # input:
-# 100 3
-# 7 12
-# 20 30
-# 30 60
+# 1 15
+# 13 47
+# 12 33
+# 80 93
+# 20 38
+# 16 40
+# 54 51
+# 18 13
+# 31 49
+# 29 35
+# 3 13
+# 69 70
+# 55 28
+# 79 25
+# 33 67
+# 22 18
 #
 # answer:
-# 57
-#
-# 반례 2
-# input:
-# 100 2
-# 7 12
-# 20 30
-#
-# answer:
-# 67
+# 3
