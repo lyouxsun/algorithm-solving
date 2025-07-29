@@ -11,6 +11,7 @@
 ## 1. 조합 - `combinations`
 - 반복 가능한 길이가 n인 객체에 대해서, **중복을 허용하지 않고 r개를 뽑는다.**
 - 어떤 것을 뽑는지만 중요하게 보기 때문에 뽑는 순서는 고려하지 않는다. (순서에 의미가 없다.)
+- 🚨🚨**주의 : `combinations(arr, r)` 에서 len(arr) < r 이면 빈 배열을 반환한다!!!**🚨🚨
 - <sub>n</sub>C<sub>r</sub> = `combinations(arr, r)`
 
 
