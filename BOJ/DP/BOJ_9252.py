@@ -4,69 +4,58 @@ import sys
 input = sys.stdin.readline
 str1 = list(input().strip())
 str2 = list(input().strip())
+len1, len2 = len(str1), len(str2)
+# dp[i][j] = str1[:i]과 str2[:j] 의 LCS 길이
+dp = [[0] * len2 for _ in range(len1)]
+lcs = [[''] * len2 for _ in range(len1)]
 
-dp = [[0] * 2 for _ in range(len(str1))]
-lcs = ['' for _ in range(len(str1))]
+# 1. dp[0][j], dp[i][0] 다 채우기
+for i in range(len1):
+    if str2[0] in str1[:i+1]:
+        dp[i][0] = 1
+        lcs[i][0] = str2[0]
+        ans = 1
+    else:
+        dp[i][0] = 0
 
-for s1 in range(len(str1)):  # s1 : str1 의 인덱스, dp 테이블의 기준 인덱스
-    if s1 == 0 or all(dp[i][0] for i in range(len(str1))) == 0:
-        for i in range(len(str2)):
-            if str2[i] == str1[s1]:
-                dp[s1][0] = 1
-                dp[s1][1] = i
-                lcs[s1] = str(str2[i])
-                break
-    for l in range(s1):  # l : dp[s1]
-        last = dp[l][1]
-        for i in range(last + 1, len(str2)):
-            if str2[i] == str1[s1]:
-                if dp[s1][0] < dp[l][0] + 1:
-                    dp[s1][0] = dp[l][0] + 1
-                    dp[s1][1] = i
-                    lcs[s1] = str(lcs[l]) + str(str2[i])
-                    break
+for j in range(len2):
+    if str1[0] in str2[:j+1]:
+        dp[0][j] = 1
+        lcs[0][j] = str1[0]
+        ans = 1
+    else:
+        dp[0][j] = 0
 
+# 2. 이전것들과 비교하며 채우기
+for i in range(1, len1):
+    for j in range(1, len2):
+        if str1[i] == str2[j]:
+            dp[i][j] = dp[i - 1][j - 1] + 1
+            if i < j:
+                lcs[i][j] = str(lcs[i - 1][j - 1]) + str(str1[i])
+            else:
+                lcs[i][j] = str(lcs[i - 1][j - 1]) + str(str2[j])
+        else:
+            # dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+            if dp[i - 1][j] > dp[i][j - 1]:
+                dp[i][j] = dp[i - 1][j]
+                lcs[i][j] = str(lcs[i - 1][j])
+            else:
+                dp[i][j] = dp[i][j - 1]
+                lcs[i][j] = str(lcs[i][j - 1])
+
+ans, ans_lcs = 0, ''
+for i in range(len1):
+    for j in range(len2):
+        if ans < dp[i][j]:
+            ans = dp[i][j]
+            ans_lcs = lcs[i][j]
 # print(dp)
 # print(lcs)
-
-dp2 = [[0] * 2 for _ in range(len(str2))]
-lcs2 = ['' for _ in range(len(str2))]
-
-for s2 in range(len(str2)):  # s1 : str1 의 인덱스, dp 테이블의 기준 인덱스
-    if s2 == 0 or all(dp[i][0] for i in range(len(str2))) == 0:
-        for i in range(len(str1)):
-            if str1[i] == str2[s2]:
-                dp2[s2][0] = 1
-                dp2[s2][1] = i
-                lcs2[s2] = str(str1[i])
-                break
-    for l in range(s2):  # l : dp[s1]
-        last = dp2[l][1]
-        for i in range(last + 1, len(str1)):
-            if str1[i] == str2[s2]:
-                if dp2[s2][0] < dp2[l][0] + 1:
-                    dp2[s2][0] = dp2[l][0] + 1
-                    dp2[s2][1] = i
-                    lcs2[s2] = str(lcs2[l]) + str(str1[i])
-                    break
-# print(dp2)
-# print(lcs2)
-
-ans = 0
-ans_lcs = ''
-for i in range(len(str1)):
-    if dp[i][0] > ans:
-        ans = dp[i][0]
-        ans_lcs = lcs[i]
-    if dp2[i][0] > ans:
-        ans = dp2[i][0]
-        ans_lcs = lcs2[i]
 print(ans)
 if ans != 0:
     print(ans_lcs)
 
-
 # 반례 : 답은 4, ACAK
 # CAPCAK
 # ACAYKP
-
