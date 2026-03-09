@@ -93,6 +93,7 @@ ex. 피보나치 수열
 | 24 | 25.01.09 | [BOJ 9465](https://www.acmicpc.net/problem/9465)   | 1309번 동물원 문제와 푸는 방식과 똑같음. `dp[0][i] = max(dp[1][i-1], dp[1][i-2]) + arr[0][i]`                           |                                                                                 |                                                                                     |         |
 | 25 | 25.07.22 | [BOJ 1106](https://www.acmicpc.net/problem/1106)   | `dp[i] = i명을 모으는 데 필요한 최소비용`                                                                             | dp 테이블 사이즈를 1 작게 했다고 틀렸다. 주의!!                                                  | dp 테이블에서 i를 정하는 기준 ⇒ '어떤 조건을 만족해야 하는가' (이 문제에서는 고객 수)                               |         |
 | 26 | 25.07.31 | [BOJ 9252](https://www.acmicpc.net/problem/9252)   | `dp[i][j] = str1[:i+1], str2[:j+1] 두 문자열의 LCS 최대 길이`                                                     | [2차원 dp] 2개의 문자열을 기준으로 LCS를 찾자!                                                 | 1차원 dp와 2차원 dp를 필요에 따라 적절히 사용해보자!                                                   |         |
+| 27 | 26.03.09 | [BOJ 1619](https://www.acmicpc.net/problem/1619)   | `dp[i]= 카드를 i+1 개 샀을 때 총액의 최솟값`                                                                          | 풀이과정이 떠오르지 않을 땐, i=1 인 경우부터 써 내려가며 풀이방법 생각해보기!                                  |                                                                                     |         |
 
 - DP 개념 설명 : https://www.youtube.com/watch?v=5Lu34WIx2Us&t=2120s
 - DP문제 추천 : https://stonejjun.tistory.com/24
